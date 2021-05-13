@@ -1,30 +1,121 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet"
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta charset="utf-8">
-    <title>MEYMEY GEI</title>
-  </head>
-  <body>
-    <div class="top-container">
-      <h1>Hi.</h1>
-      <h2>"<span class="Excites">We are a group of pussy slayers(except SHUBS)</span>"</h2>
-    </div>
-  <div class="temptp">
-  <a class="btn" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">click here if ur chaliya</a>
-  </div>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
 
-  <hr>
-  <!--Google map-->
-  <div class="map-container" >
-    <iframe src="https://www.easymapmaker.com/map/51e09c648ff77b9d77234604200c486f" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-  </div>
-
-  <!--Google Maps-->
+    <link href="bootstrap_slate.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
 
 
-  </body>
+	<title>IGT-Project</title>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <div class="container d-flex justify-content-between">
+	    <a class="navbar-brand fw-bold" href="#top">IGT</a>
+	    <button class="navbar-toggler me-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+
+	    <div class="collapse navbar-collapse" id="navbarColor01">
+	      <ul class="navbar-nav me-auto">
+	        <li class="nav-item">
+	          <a class="nav-link" href="#map-section">Map</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#description-section">Description</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#about-section">About</a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+
+</head>
+<body>
+	<div class="container p-2">
+			<div class="container p-1" id="map-section"b>
+			<h1 class="display-3">Map</h1>
+			<div class="d-flex justify-content-around">
+				<div class="align-self-center">
+					<div class="map-container" >
+				    	<iframe class="map" src="https://www.easymapmaker.com/map/51e09c648ff77b9d77234604200c486f" allowfullscreen="" loading="lazy"></iframe>
+				  </div>
+			  	</div>
+		  	</div>
+		</div>  	
+	  	<div class="container p-1" id="description-section">
+	  		<h1 class="display-3">Description</h1>
+	  		<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor sagittis lacus a vulputate. Ut varius erat sed maximus suscipit. Morbi rhoncus lorem vel lectus sollicitudin, ut aliquam ipsum placerat. In quis auctor ante. Cras pulvinar, tellus sit amet lacinia congue, eros erat fringilla nulla, at pellentesque urna sem ut tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis laoreet tortor non ipsum tempor ultrices. Pellentesque imperdiet erat risus, a ultrices lacus lacinia sit amet. Etiam quis lacus enim. Duis cursus accumsan egestas.
+
+				Maecenas venenatis augue nisl, id auctor eros vestibulum sit amet. Suspendisse iaculis ex et varius mattis. Quisque hendrerit consequat blandit. Nullam lobortis vitae velit ultricies viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean tincidunt, arcu sit amet placerat ornare, ex velit tristique risus, a consectetur massa lacus ac tortor. Donec dictum id lorem vitae vehicula. Sed pellentesque non tortor vel rutrum. Phasellus gravida ac magna ac luctus.
+
+				Pellentesque vel vulputate nibh, eget suscipit augue. Ut ultricies ipsum rutrum faucibus faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum fermentum, ipsum vel rhoncus rhoncus, nisi odio efficitur dolor, ut ultricies risus sem in neque. Aenean tincidunt diam sit amet elit dapibus sagittis. Donec vel erat rutrum, finibus eros vel, commodo neque. Sed libero lorem, aliquet sit amet ultricies ut, volutpat in magna.
+
+				Maecenas posuere suscipit accumsan. Fusce rhoncus ultricies accumsan. Donec vestibulum ligula eu vulputate porta. Aenean hendrerit vel turpis eu ultricies. Donec non accumsan tortor, a vulputate augue. Etiam erat odio, semper sed nulla eget, euismod malesuada mi. Phasellus id tincidunt lectus. Praesent vulputate sapien ac aliquet facilisis. Sed ut orci lacinia, aliquet leo in, efficitur justo.
+
+				Nullam pulvinar cursus felis quis elementum. Cras ligula nisi, egestas sit amet arcu eget, molestie tempus nulla. Nulla facilisis aliquet lorem, vitae interdum justo laoreet nec. Pellentesque massa ligula, consectetur non consequat vitae, consequat et mauris. Etiam facilisis aliquet dui. Suspendisse ullamcorper libero vitae nulla aliquam pretium. Donec nec augue et est hendrerit gravida sit amet sed est. Aenean suscipit eget enim sed vestibulum. Vivamus vitae accumsan ante, vel varius turpis. Curabitur convallis nulla odio, porta euismod nulla lobortis eget. Vivamus eu imperdiet nisl. Proin at rhoncus risus. Nullam sed felis faucibus leo malesuada blandit in at orci.
+			</p>
+	  	</div>
+		<div class="container p-1" id="about-section">
+			<h1 class="display-3">About</h1>
+			<p>This is our IGT project made by G-18</p>
+	  		<div class="d-flex justify-content-between flex-wrap">
+	  			<div class="align-self-center">
+	  				<ul>
+	  					<h4> Sushmey Nirmal </h4>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  				</ul>
+	  			</div>
+	  			<div class="align-self-center">
+	  				<ul>
+	  					<h4> Vinay Jogani </h4>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  				</ul>
+	  			</div>
+	  			<div class="align-self-center">
+	  				<ul>
+	  					<h4> Ishaan Bhondelé</h4>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  				</ul>
+	  			</div>
+	  			<div class="align-self-center">
+	  				<ul>
+	  					<h4> Walid Palekar</h4>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  					<li>Task</li>
+	  				</ul>
+	  			</div>
+	  		</div>
+	  	</div>
+	</div>
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
 </html>
