@@ -2,9 +2,52 @@
 	background-image: url('map.jpg');
 }
 
+body{
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+	align-items: center;
+}
+
+hr{
+	color: #272b30;
+  border-top: 10px dotted #e1e5ea;
+	height: 0px !important;
+	width: 20%;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+	margin: auto;
+}
+
+h1{
+text-decoration: underline;
+text-underline-offset: 0.5rem;
+margin: 1.3rem;
+}
+h4{
+	font-family: 'Shadows Into Light', cursive;
+	margin: .4rem;
+	font-weight: bold;
+
+}
+p{
+	margin: 10px;
+	text-align: left;
+}
+
+.g18{
+	position:relative;
+	right: auto;
+	color: black;
+	text-decoration: overline underline;
+	font-family: 'Shadows Into Light', cursive;
+
+}
 
 /* media queries  */
- 
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
 	.map{
@@ -35,7 +78,7 @@
 		margin-bottom: 0;
 	}
 }
- 
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	.map{
