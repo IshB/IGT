@@ -4,8 +4,11 @@
 
 body{
 	font-family: 'Libre Baskerville', serif;
-	text-align: center;
 	align-items: center;
+}
+
+.headingCenter{
+	text-align: center;
 }
 
 hr{
