@@ -28,8 +28,7 @@ margin: 1.3rem;
 }
 
 h4{
-	font-family: 'Shadows Into Light', cursive;
-	margin: .4rem;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 
 }
@@ -38,14 +37,6 @@ p{
 	text-align: left;
 }
 
-.g18{
-	position:relative;
-	right: auto;
-	color: black;
-	text-decoration: overline underline;
-	font-family: 'Shadows Into Light', cursive;
-
-}
 
 /* media queries  */
 
