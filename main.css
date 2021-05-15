@@ -10,7 +10,9 @@ body{
 .headingCenter{
 	text-align: center;
 }
-
+.small{
+	font-size: 0.75rem;
+}
 hr{
 	color: #272b30;
   border-top: 10px dotted #e1e5ea;
@@ -30,7 +32,7 @@ text-underline-offset: 0.5rem;
 margin: 1.3rem;
 }
 
-h4{
+h5{
 	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 
