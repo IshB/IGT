@@ -13,7 +13,7 @@ Made under the tutlage of Dr V. B. Nikam. We are grateful for the constant mento
 
 
 <h1>Problem statement</h1>
-We observed the the starbucks store was not working properly on their website, so we came up with our own.
+We observed the the starbucks store locator was not working properly on their website, so we came up with our own.
 <br>
 Coffee shops can be big business but to really make it as a successful cafe owner, there may be some home truths you may need to consider. Everyone needs a place to relax and enjoy themselves, so cafes are the perfect place to do it. so tracking such places which help us relax our minds are a necessity for everyone.
 we provide a better way to visualize their locations with the help of QGIS. We also perform Spatial queries to show things like their location, prices, when they are crowded and ratings. Finally, we plot the cafes using the interpolate the data. These visuals were restricted to the QGIS platform due to a large amount of data and high processing requirements of web GIS. Also, we explore new technologies like QGIS cloud and HERE Studio.
